@@ -1,0 +1,790 @@
+CRITICAL - 2024-06-11 14:06:10 --> ParseError: syntax error, unexpected token "class", expecting "{"
+[Method: GET, Route: /]
+in APPPATH\Controllers\Home.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\codeIgniterProject\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\codeIgniterProject\\public\\index.php')
+CRITICAL - 2024-06-11 14:30:53 --> ParseError: syntax error, unexpected identifier "ucfirst"
+[Method: GET, Route: home]
+in APPPATH\Controllers\Pages.php on line 19.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\codeIgniterProject\\app\\Controllers\\Pages.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Pages')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Pages')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Pages', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\codeIgniterProject\\public\\index.php')
+CRITICAL - 2024-06-11 15:11:34 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: GET, Route: news]
+in APPPATH\Models\NewsModel.php on line 12.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\codeIgniterProject\\app\\Models\\NewsModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\NewsModel')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\NewsModel')
+ 4 SYSTEMPATH\Config\Factories.php(297): class_exists('App\\Models\\NewsModel')
+ 5 SYSTEMPATH\Config\Factories.php(216): CodeIgniter\Config\Factories::locateClass([...], 'App\\Models\\NewsModel')
+ 6 SYSTEMPATH\Config\Factories.php(159): CodeIgniter\Config\Factories::getDefinedInstance([...], 'App\\Models\\NewsModel', [...])
+ 7 SYSTEMPATH\Common.php(802): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 8 APPPATH\Controllers\News.php(10): model('App\\Models\\NewsModel')
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\News->index()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\codeIgniterProject\\public\\index.php')
+CRITICAL - 2024-06-11 15:14:03 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: GET, Route: news]
+in APPPATH\Models\NewsModel.php on line 12.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\codeIgniterProject\\app\\Models\\NewsModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\NewsModel')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\NewsModel')
+ 4 SYSTEMPATH\Config\Factories.php(297): class_exists('App\\Models\\NewsModel')
+ 5 SYSTEMPATH\Config\Factories.php(216): CodeIgniter\Config\Factories::locateClass([...], 'App\\Models\\NewsModel')
+ 6 SYSTEMPATH\Config\Factories.php(159): CodeIgniter\Config\Factories::getDefinedInstance([...], 'App\\Models\\NewsModel', [...])
+ 7 SYSTEMPATH\Common.php(802): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 8 APPPATH\Controllers\News.php(10): model('App\\Models\\NewsModel')
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\News->index()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\codeIgniterProject\\public\\index.php')
+CRITICAL - 2024-06-11 15:14:04 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: GET, Route: news]
+in APPPATH\Models\NewsModel.php on line 12.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\codeIgniterProject\\app\\Models\\NewsModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\NewsModel')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\NewsModel')
+ 4 SYSTEMPATH\Config\Factories.php(297): class_exists('App\\Models\\NewsModel')
+ 5 SYSTEMPATH\Config\Factories.php(216): CodeIgniter\Config\Factories::locateClass([...], 'App\\Models\\NewsModel')
+ 6 SYSTEMPATH\Config\Factories.php(159): CodeIgniter\Config\Factories::getDefinedInstance([...], 'App\\Models\\NewsModel', [...])
+ 7 SYSTEMPATH\Common.php(802): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 8 APPPATH\Controllers\News.php(10): model('App\\Models\\NewsModel')
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\News->index()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\codeIgniterProject\\public\\index.php')
+CRITICAL - 2024-06-11 15:14:49 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: GET, Route: news]
+in APPPATH\Models\NewsModel.php on line 12.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\codeIgniterProject\\app\\Models\\NewsModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\NewsModel')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\NewsModel')
+ 4 SYSTEMPATH\Config\Factories.php(297): class_exists('App\\Models\\NewsModel')
+ 5 SYSTEMPATH\Config\Factories.php(216): CodeIgniter\Config\Factories::locateClass([...], 'App\\Models\\NewsModel')
+ 6 SYSTEMPATH\Config\Factories.php(159): CodeIgniter\Config\Factories::getDefinedInstance([...], 'App\\Models\\NewsModel', [...])
+ 7 SYSTEMPATH\Common.php(802): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 8 APPPATH\Controllers\News.php(10): model('App\\Models\\NewsModel')
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\News->index()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\codeIgniterProject\\public\\index.php')
+CRITICAL - 2024-06-11 15:14:50 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: GET, Route: news]
+in APPPATH\Models\NewsModel.php on line 12.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\codeIgniterProject\\app\\Models\\NewsModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\NewsModel')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\NewsModel')
+ 4 SYSTEMPATH\Config\Factories.php(297): class_exists('App\\Models\\NewsModel')
+ 5 SYSTEMPATH\Config\Factories.php(216): CodeIgniter\Config\Factories::locateClass([...], 'App\\Models\\NewsModel')
+ 6 SYSTEMPATH\Config\Factories.php(159): CodeIgniter\Config\Factories::getDefinedInstance([...], 'App\\Models\\NewsModel', [...])
+ 7 SYSTEMPATH\Common.php(802): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 8 APPPATH\Controllers\News.php(10): model('App\\Models\\NewsModel')
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\News->index()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\codeIgniterProject\\public\\index.php')
+CRITICAL - 2024-06-11 15:18:36 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: GET, Route: news]
+in APPPATH\Models\NewsModel.php on line 12.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\codeIgniterProject\\app\\Models\\NewsModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\NewsModel')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\NewsModel')
+ 4 SYSTEMPATH\Config\Factories.php(297): class_exists('App\\Models\\NewsModel')
+ 5 SYSTEMPATH\Config\Factories.php(216): CodeIgniter\Config\Factories::locateClass([...], 'App\\Models\\NewsModel')
+ 6 SYSTEMPATH\Config\Factories.php(159): CodeIgniter\Config\Factories::getDefinedInstance([...], 'App\\Models\\NewsModel', [...])
+ 7 SYSTEMPATH\Common.php(802): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 8 APPPATH\Controllers\News.php(10): model('App\\Models\\NewsModel')
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\News->index()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\codeIgniterProject\\public\\index.php')
+CRITICAL - 2024-06-11 15:19:20 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: GET, Route: news]
+in APPPATH\Models\NewsModel.php on line 12.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\codeIgniterProject\\app\\Models\\NewsModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\NewsModel')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\NewsModel')
+ 4 SYSTEMPATH\Config\Factories.php(297): class_exists('App\\Models\\NewsModel')
+ 5 SYSTEMPATH\Config\Factories.php(216): CodeIgniter\Config\Factories::locateClass([...], 'App\\Models\\NewsModel')
+ 6 SYSTEMPATH\Config\Factories.php(159): CodeIgniter\Config\Factories::getDefinedInstance([...], 'App\\Models\\NewsModel', [...])
+ 7 SYSTEMPATH\Common.php(802): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 8 APPPATH\Controllers\News.php(10): model('App\\Models\\NewsModel')
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\News->index()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\codeIgniterProject\\public\\index.php')
+ERROR - 2024-06-11 15:20:07 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp\htdocs\codeIgniterProject\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\xampp\htdocs\codeIgniterProject\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'emps', 3306, '', 0)
+#1 C:\xampp\htdocs\codeIgniterProject\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\codeIgniterProject\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\codeIgniterProject\system\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\codeIgniterProject\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\codeIgniterProject\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\codeIgniterProject\app\Models\NewsModel.php(14): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\codeIgniterProject\app\Controllers\News.php(13): App\Models\NewsModel->getNews()
+#8 C:\xampp\htdocs\codeIgniterProject\system\CodeIgniter.php(933): App\Controllers\News->index()
+#9 C:\xampp\htdocs\codeIgniterProject\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#10 C:\xampp\htdocs\codeIgniterProject\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\codeIgniterProject\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\codeIgniterProject\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\codeIgniterProject\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\codeIgniterProject\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp\htdocs\codeIgniterProject\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp\htdocs\codeIgniterProject\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\codeIgniterProject\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\codeIgniterProject\system\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\codeIgniterProject\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\codeIgniterProject\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\codeIgniterProject\app\Models\NewsModel.php(14): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\codeIgniterProject\app\Controllers\News.php(13): App\Models\NewsModel->getNews()
+#7 C:\xampp\htdocs\codeIgniterProject\system\CodeIgniter.php(933): App\Controllers\News->index()
+#8 C:\xampp\htdocs\codeIgniterProject\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#9 C:\xampp\htdocs\codeIgniterProject\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\codeIgniterProject\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\codeIgniterProject\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\codeIgniterProject\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\codeIgniterProject\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2024-06-11 15:20:07 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+[Method: GET, Route: news]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `employee`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\NewsModel.php(14): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\News.php(13): App\Models\NewsModel->getNews()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\News->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\codeIgniterProject\\public\\index.php')
+CRITICAL - 2024-06-11 15:25:30 --> ParseError: syntax error, unexpected token "endforeach", expecting "elseif" or "else" or "endif"
+[Method: GET, Route: news]
+in APPPATH\Views\news\index.php on line 12.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('news/index', [], true)
+ 3 APPPATH\Controllers\News.php(17): view('news/index')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\News->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\codeIgniterProject\\public\\index.php')
+CRITICAL - 2024-06-11 15:25:32 --> ParseError: syntax error, unexpected token "endforeach", expecting "elseif" or "else" or "endif"
+[Method: GET, Route: news]
+in APPPATH\Views\news\index.php on line 12.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('news/index', [], true)
+ 3 APPPATH\Controllers\News.php(17): view('news/index')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\News->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\codeIgniterProject\\public\\index.php')
+CRITICAL - 2024-06-11 15:26:35 --> ErrorException: Undefined array key "title"
+[Method: GET, Route: news]
+in APPPATH\Views\news\index.php on line 7.
+ 1 APPPATH\Views\news\index.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'C:\\xampp\\htdocs\\codeIgniterProject\\app\\Views\\news\\index.php', 7)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\codeIgniterProject\\app\\Views\\news\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('news/index', [], true)
+ 5 APPPATH\Controllers\News.php(17): view('news/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\News->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\codeIgniterProject\\public\\index.php')
+CRITICAL - 2024-06-11 15:26:36 --> ErrorException: Undefined array key "title"
+[Method: GET, Route: news]
+in APPPATH\Views\news\index.php on line 7.
+ 1 APPPATH\Views\news\index.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'C:\\xampp\\htdocs\\codeIgniterProject\\app\\Views\\news\\index.php', 7)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\codeIgniterProject\\app\\Views\\news\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('news/index', [], true)
+ 5 APPPATH\Controllers\News.php(17): view('news/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\News->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\codeIgniterProject\\public\\index.php')
+CRITICAL - 2024-06-11 15:27:29 --> ErrorException: Undefined array key "employee"
+[Method: GET, Route: news]
+in APPPATH\Views\news\index.php on line 7.
+ 1 APPPATH\Views\news\index.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "employee"', 'C:\\xampp\\htdocs\\codeIgniterProject\\app\\Views\\news\\index.php', 7)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\codeIgniterProject\\app\\Views\\news\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('news/index', [], true)
+ 5 APPPATH\Controllers\News.php(17): view('news/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\News->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\codeIgniterProject\\public\\index.php')
+CRITICAL - 2024-06-11 15:27:30 --> ErrorException: Undefined array key "employee"
+[Method: GET, Route: news]
+in APPPATH\Views\news\index.php on line 7.
+ 1 APPPATH\Views\news\index.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "employee"', 'C:\\xampp\\htdocs\\codeIgniterProject\\app\\Views\\news\\index.php', 7)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\codeIgniterProject\\app\\Views\\news\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('news/index', [], true)
+ 5 APPPATH\Controllers\News.php(17): view('news/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\News->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\codeIgniterProject\\public\\index.php')
+CRITICAL - 2024-06-11 15:27:31 --> ErrorException: Undefined array key "employee"
+[Method: GET, Route: news]
+in APPPATH\Views\news\index.php on line 7.
+ 1 APPPATH\Views\news\index.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "employee"', 'C:\\xampp\\htdocs\\codeIgniterProject\\app\\Views\\news\\index.php', 7)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\codeIgniterProject\\app\\Views\\news\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('news/index', [], true)
+ 5 APPPATH\Controllers\News.php(17): view('news/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\News->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\codeIgniterProject\\public\\index.php')
+CRITICAL - 2024-06-11 15:27:32 --> ErrorException: Undefined array key "employee"
+[Method: GET, Route: news]
+in APPPATH\Views\news\index.php on line 7.
+ 1 APPPATH\Views\news\index.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "employee"', 'C:\\xampp\\htdocs\\codeIgniterProject\\app\\Views\\news\\index.php', 7)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\codeIgniterProject\\app\\Views\\news\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('news/index', [], true)
+ 5 APPPATH\Controllers\News.php(17): view('news/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\News->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\codeIgniterProject\\public\\index.php')
+CRITICAL - 2024-06-11 15:27:33 --> ErrorException: Undefined array key "employee"
+[Method: GET, Route: news]
+in APPPATH\Views\news\index.php on line 7.
+ 1 APPPATH\Views\news\index.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "employee"', 'C:\\xampp\\htdocs\\codeIgniterProject\\app\\Views\\news\\index.php', 7)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\codeIgniterProject\\app\\Views\\news\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('news/index', [], true)
+ 5 APPPATH\Controllers\News.php(17): view('news/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\News->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\codeIgniterProject\\public\\index.php')
+CRITICAL - 2024-06-11 15:27:40 --> ErrorException: Undefined array key "title"
+[Method: GET, Route: news]
+in APPPATH\Views\news\index.php on line 7.
+ 1 APPPATH\Views\news\index.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'C:\\xampp\\htdocs\\codeIgniterProject\\app\\Views\\news\\index.php', 7)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\codeIgniterProject\\app\\Views\\news\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('news/index', [], true)
+ 5 APPPATH\Controllers\News.php(17): view('news/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\News->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\codeIgniterProject\\public\\index.php')
+CRITICAL - 2024-06-11 15:28:28 --> ErrorException: Undefined array key "title"
+[Method: GET, Route: news]
+in APPPATH\Views\news\index.php on line 7.
+ 1 APPPATH\Views\news\index.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'C:\\xampp\\htdocs\\codeIgniterProject\\app\\Views\\news\\index.php', 7)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\codeIgniterProject\\app\\Views\\news\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('news/index', [], true)
+ 5 APPPATH\Controllers\News.php(18): view('news/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\News->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\codeIgniterProject\\public\\index.php')
+CRITICAL - 2024-06-11 15:31:34 --> ErrorException: Undefined variable $title
+[Method: GET, Route: news]
+in APPPATH\Views\templates\header.php on line 7.
+ 1 APPPATH\Views\templates\header.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\codeIgniterProject\\app\\Views\\templates\\header.php', 7)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\codeIgniterProject\\app\\Views\\templates\\header.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('templates/header', [], true)
+ 5 APPPATH\Controllers\News.php(17): view('templates/header', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\News->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\codeIgniterProject\\public\\index.php')
+CRITICAL - 2024-06-11 15:31:36 --> ErrorException: Undefined variable $title
+[Method: GET, Route: news]
+in APPPATH\Views\templates\header.php on line 7.
+ 1 APPPATH\Views\templates\header.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\codeIgniterProject\\app\\Views\\templates\\header.php', 7)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\codeIgniterProject\\app\\Views\\templates\\header.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('templates/header', [], true)
+ 5 APPPATH\Controllers\News.php(17): view('templates/header', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\News->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\codeIgniterProject\\public\\index.php')
+CRITICAL - 2024-06-11 15:32:16 --> ErrorException: Undefined array key "employees"
+[Method: GET, Route: news]
+in APPPATH\Views\news\index.php on line 7.
+ 1 APPPATH\Views\news\index.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "employees"', 'C:\\xampp\\htdocs\\codeIgniterProject\\app\\Views\\news\\index.php', 7)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\codeIgniterProject\\app\\Views\\news\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('news/index', [], true)
+ 5 APPPATH\Controllers\News.php(18): view('news/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\News->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\codeIgniterProject\\public\\index.php')
+CRITICAL - 2024-06-11 15:32:27 --> ErrorException: Undefined array key "title"
+[Method: GET, Route: news]
+in APPPATH\Views\news\index.php on line 7.
+ 1 APPPATH\Views\news\index.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'C:\\xampp\\htdocs\\codeIgniterProject\\app\\Views\\news\\index.php', 7)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\codeIgniterProject\\app\\Views\\news\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('news/index', [], true)
+ 5 APPPATH\Controllers\News.php(18): view('news/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\News->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\codeIgniterProject\\public\\index.php')
+CRITICAL - 2024-06-11 15:33:32 --> ErrorException: Undefined array key "title"
+[Method: GET, Route: news]
+in APPPATH\Views\news\index.php on line 7.
+ 1 APPPATH\Views\news\index.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'C:\\xampp\\htdocs\\codeIgniterProject\\app\\Views\\news\\index.php', 7)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\codeIgniterProject\\app\\Views\\news\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('news/index', [], true)
+ 5 APPPATH\Controllers\News.php(18): view('news/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\News->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\codeIgniterProject\\public\\index.php')
+CRITICAL - 2024-06-11 15:33:33 --> ErrorException: Undefined array key "title"
+[Method: GET, Route: news]
+in APPPATH\Views\news\index.php on line 7.
+ 1 APPPATH\Views\news\index.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'C:\\xampp\\htdocs\\codeIgniterProject\\app\\Views\\news\\index.php', 7)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\codeIgniterProject\\app\\Views\\news\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('news/index', [], true)
+ 5 APPPATH\Controllers\News.php(18): view('news/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\News->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\codeIgniterProject\\public\\index.php')
+CRITICAL - 2024-06-11 15:33:33 --> ErrorException: Undefined array key "title"
+[Method: GET, Route: news]
+in APPPATH\Views\news\index.php on line 7.
+ 1 APPPATH\Views\news\index.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'C:\\xampp\\htdocs\\codeIgniterProject\\app\\Views\\news\\index.php', 7)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\codeIgniterProject\\app\\Views\\news\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('news/index', [], true)
+ 5 APPPATH\Controllers\News.php(18): view('news/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\News->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\codeIgniterProject\\public\\index.php')
+CRITICAL - 2024-06-11 15:33:37 --> ErrorException: Undefined array key "title"
+[Method: GET, Route: news]
+in APPPATH\Views\news\index.php on line 7.
+ 1 APPPATH\Views\news\index.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'C:\\xampp\\htdocs\\codeIgniterProject\\app\\Views\\news\\index.php', 7)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\codeIgniterProject\\app\\Views\\news\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('news/index', [], true)
+ 5 APPPATH\Controllers\News.php(18): view('news/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\News->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\codeIgniterProject\\public\\index.php')
+CRITICAL - 2024-06-11 15:33:38 --> ErrorException: Undefined array key "title"
+[Method: GET, Route: news]
+in APPPATH\Views\news\index.php on line 7.
+ 1 APPPATH\Views\news\index.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'C:\\xampp\\htdocs\\codeIgniterProject\\app\\Views\\news\\index.php', 7)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\codeIgniterProject\\app\\Views\\news\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('news/index', [], true)
+ 5 APPPATH\Controllers\News.php(18): view('news/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\News->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\codeIgniterProject\\public\\index.php')
+CRITICAL - 2024-06-11 15:33:46 --> ErrorException: Undefined array key "title"
+[Method: GET, Route: news]
+in APPPATH\Views\news\index.php on line 7.
+ 1 APPPATH\Views\news\index.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'C:\\xampp\\htdocs\\codeIgniterProject\\app\\Views\\news\\index.php', 7)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\codeIgniterProject\\app\\Views\\news\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('news/index', [], true)
+ 5 APPPATH\Controllers\News.php(18): view('news/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\News->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\codeIgniterProject\\public\\index.php')
+CRITICAL - 2024-06-11 15:33:46 --> ErrorException: Undefined array key "title"
+[Method: GET, Route: news]
+in APPPATH\Views\news\index.php on line 7.
+ 1 APPPATH\Views\news\index.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'C:\\xampp\\htdocs\\codeIgniterProject\\app\\Views\\news\\index.php', 7)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\codeIgniterProject\\app\\Views\\news\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('news/index', [], true)
+ 5 APPPATH\Controllers\News.php(18): view('news/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\News->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\codeIgniterProject\\public\\index.php')
+CRITICAL - 2024-06-11 15:35:01 --> ErrorException: Undefined array key "title"
+[Method: GET, Route: news]
+in APPPATH\Views\news\index.php on line 7.
+ 1 APPPATH\Views\news\index.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'C:\\xampp\\htdocs\\codeIgniterProject\\app\\Views\\news\\index.php', 7)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\codeIgniterProject\\app\\Views\\news\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('news/index', [], true)
+ 5 APPPATH\Controllers\News.php(18): view('news/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\News->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\codeIgniterProject\\public\\index.php')
+CRITICAL - 2024-06-11 15:35:02 --> ErrorException: Undefined array key "title"
+[Method: GET, Route: news]
+in APPPATH\Views\news\index.php on line 7.
+ 1 APPPATH\Views\news\index.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'C:\\xampp\\htdocs\\codeIgniterProject\\app\\Views\\news\\index.php', 7)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\codeIgniterProject\\app\\Views\\news\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('news/index', [], true)
+ 5 APPPATH\Controllers\News.php(18): view('news/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\News->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\codeIgniterProject\\public\\index.php')
+CRITICAL - 2024-06-11 15:36:18 --> ErrorException: Undefined array key "title"
+[Method: GET, Route: news]
+in APPPATH\Views\news\index.php on line 7.
+ 1 APPPATH\Views\news\index.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'C:\\xampp\\htdocs\\codeIgniterProject\\app\\Views\\news\\index.php', 7)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\codeIgniterProject\\app\\Views\\news\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('news/index', [], true)
+ 5 APPPATH\Controllers\News.php(18): view('news/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\News->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\codeIgniterProject\\public\\index.php')
+CRITICAL - 2024-06-11 15:37:02 --> ErrorException: Undefined array key "title"
+[Method: GET, Route: news]
+in APPPATH\Views\news\index.php on line 7.
+ 1 APPPATH\Views\news\index.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'C:\\xampp\\htdocs\\codeIgniterProject\\app\\Views\\news\\index.php', 7)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\codeIgniterProject\\app\\Views\\news\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('news/index', [], true)
+ 5 APPPATH\Controllers\News.php(18): view('news/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\News->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\codeIgniterProject\\public\\index.php')
+CRITICAL - 2024-06-11 15:37:03 --> ErrorException: Undefined array key "title"
+[Method: GET, Route: news]
+in APPPATH\Views\news\index.php on line 7.
+ 1 APPPATH\Views\news\index.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'C:\\xampp\\htdocs\\codeIgniterProject\\app\\Views\\news\\index.php', 7)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\codeIgniterProject\\app\\Views\\news\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('news/index', [], true)
+ 5 APPPATH\Controllers\News.php(18): view('news/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\News->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\codeIgniterProject\\public\\index.php')
+ERROR - 2024-06-11 15:43:04 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp\htdocs\codeIgniterProject\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\xampp\htdocs\codeIgniterProject\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'ci4tutorial', 3306, '', 0)
+#1 C:\xampp\htdocs\codeIgniterProject\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\codeIgniterProject\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\codeIgniterProject\system\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\codeIgniterProject\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\codeIgniterProject\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\codeIgniterProject\app\Models\NewsModel.php(14): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\codeIgniterProject\app\Controllers\News.php(13): App\Models\NewsModel->getNews()
+#8 C:\xampp\htdocs\codeIgniterProject\system\CodeIgniter.php(933): App\Controllers\News->index()
+#9 C:\xampp\htdocs\codeIgniterProject\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#10 C:\xampp\htdocs\codeIgniterProject\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\codeIgniterProject\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\codeIgniterProject\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\codeIgniterProject\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\codeIgniterProject\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp\htdocs\codeIgniterProject\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp\htdocs\codeIgniterProject\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\codeIgniterProject\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\codeIgniterProject\system\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\codeIgniterProject\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\codeIgniterProject\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\codeIgniterProject\app\Models\NewsModel.php(14): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\codeIgniterProject\app\Controllers\News.php(13): App\Models\NewsModel->getNews()
+#7 C:\xampp\htdocs\codeIgniterProject\system\CodeIgniter.php(933): App\Controllers\News->index()
+#8 C:\xampp\htdocs\codeIgniterProject\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#9 C:\xampp\htdocs\codeIgniterProject\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\codeIgniterProject\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\codeIgniterProject\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\codeIgniterProject\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\codeIgniterProject\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2024-06-11 15:43:04 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+[Method: GET, Route: news]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `employee`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\NewsModel.php(14): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\News.php(13): App\Models\NewsModel->getNews()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\News->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\codeIgniterProject\\public\\index.php')
+ERROR - 2024-06-11 15:43:15 --> mysqli_sql_exception: Table 'ci4tutorial.employee' doesn't exist in C:\xampp\htdocs\codeIgniterProject\system\Database\MySQLi\Connection.php:310
+Stack trace:
+#0 C:\xampp\htdocs\codeIgniterProject\system\Database\MySQLi\Connection.php(310): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\codeIgniterProject\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\codeIgniterProject\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\codeIgniterProject\system\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\codeIgniterProject\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\codeIgniterProject\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\codeIgniterProject\app\Models\NewsModel.php(14): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\codeIgniterProject\app\Controllers\News.php(13): App\Models\NewsModel->getNews()
+#8 C:\xampp\htdocs\codeIgniterProject\system\CodeIgniter.php(933): App\Controllers\News->index()
+#9 C:\xampp\htdocs\codeIgniterProject\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#10 C:\xampp\htdocs\codeIgniterProject\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\codeIgniterProject\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\codeIgniterProject\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\codeIgniterProject\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\codeIgniterProject\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2024-06-11 15:43:15 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'ci4tutorial.employee' doesn't exist
+[Method: GET, Route: news]
+in SYSTEMPATH\Database\BaseConnection.php on line 686.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `employee`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\NewsModel.php(14): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\News.php(13): App\Models\NewsModel->getNews()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\News->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\codeIgniterProject\\public\\index.php')
+CRITICAL - 2024-06-11 15:43:15 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'ci4tutorial.employee' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 315.
+ 1 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `employee`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `employee`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `employee`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\NewsModel.php(14): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\News.php(13): App\Models\NewsModel->getNews()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\News->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\codeIgniterProject\\public\\index.php')
+CRITICAL - 2024-06-11 15:43:15 --> [Caused by] mysqli_sql_exception: Table 'ci4tutorial.employee' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(310): mysqli->query('SELECT *
+FROM `employee`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `employee`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `employee`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `employee`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\NewsModel.php(14): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\News.php(13): App\Models\NewsModel->getNews()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\News->index()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\codeIgniterProject\\public\\index.php')
+CRITICAL - 2024-06-11 15:54:02 --> ErrorException: Cannot declare class Config\Filters, because the name is already in use
+[Method: GET, Route: news]
+in APPPATH\Config\Filters.php on line 24.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-11 15:54:40 --> ParseError: syntax error, unexpected token "extends", expecting "{"
+[Method: GET, Route: news]
+in APPPATH\Config\Filters.php on line 17.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\codeIgniterProject\\app\\Config\\Filters.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Filters')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Filters')
+ 4 SYSTEMPATH\Config\Factories.php(297): class_exists('Config\\Filters')
+ 5 SYSTEMPATH\Config\Factories.php(216): CodeIgniter\Config\Factories::locateClass([...], 'Config\\Filters')
+ 6 SYSTEMPATH\Config\Factories.php(159): CodeIgniter\Config\Factories::getDefinedInstance([...], 'Config\\Filters', [])
+ 7 SYSTEMPATH\Config\Factories.php(188): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 8 SYSTEMPATH\Common.php(207): CodeIgniter\Config\Factories::get('config', 'Config\\Filters')
+ 9 SYSTEMPATH\Config\Services.php(293): config('Config\\Filters')
+10 SYSTEMPATH\Config\BaseService.php(311): CodeIgniter\Config\Services::filters(null, false)
+11 SYSTEMPATH\Config\BaseService.php(250): CodeIgniter\Config\BaseService::__callStatic('filters', [...])
+12 SYSTEMPATH\Config\Services.php(290): CodeIgniter\Config\BaseService::getSharedInstance('filters', null)
+13 SYSTEMPATH\Config\BaseService.php(320): CodeIgniter\Config\Services::filters()
+14 SYSTEMPATH\CodeIgniter.php(346): CodeIgniter\Config\BaseService::__callStatic('filters', [])
+15 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+17 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+18 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\codeIgniterProject\\public\\index.php')
+CRITICAL - 2024-06-11 15:54:52 --> ErrorException: Cannot redeclare Config\Filters::$methods
+[Method: GET, Route: news]
+in APPPATH\Config\Filters.php on line 99.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-11 15:56:05 --> ErrorException: Cannot redeclare Config\Filters::$methods
+[Method: GET, Route: news]
+in APPPATH\Config\Filters.php on line 109.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-11 16:14:24 --> ParseError: Unclosed '{' on line 50 does not match ')'
+[Method: GET, Route: news]
+in APPPATH\Controllers\News.php on line 70.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\codeIgniterProject\\app\\Controllers\\News.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\News')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\News')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\News', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\codeIgniterProject\\public\\index.php')
+INFO - 2024-06-11 16:19:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-11 16:19:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-11 16:19:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-11 16:20:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-11 16:20:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-11 16:20:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-11 16:20:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-11 16:21:07 --> CSRF token verified.
+INFO - 2024-06-11 16:21:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
